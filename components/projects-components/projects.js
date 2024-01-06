@@ -133,7 +133,7 @@ export default function Projects() {
       <div className="flex justify-evenly p-10">
       <h2>FUEL PAY AFRICA WEB</h2>
         <div className="w-1/3 pr-4">
-        <Image src={'/weather.jpg'} width={400} height={250} />
+        <Image src={'/preview.jpg'} width={400} height={250} />
         </div>
 
         <div className="w-2/3 max-w-md">
