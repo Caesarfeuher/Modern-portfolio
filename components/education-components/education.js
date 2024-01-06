@@ -27,27 +27,27 @@ const Education = () => {
 
       {/* Four divs for listing institutions */}
       <div className="education-item">
-        <p className="text-gray-600 text-4xl">Bachelor of Science in Mechanical Engineering</p>
-        <h2 className="text-gray-600 text-2xl">2015-2019 | Kwame Nkrumah University Of Science And Technology (KNUST) </h2>
-        <p className="text-gray-600">Mechanical and aerospace</p>
+        <p className="text-gray-400 text-4xl">Bachelor of Science in Mechanical Engineering</p>
+        <h2 className="text-gray-400 text-2xl">2015-2019 | Kwame Nkrumah University Of Science And Technology (KNUST) </h2>
+        <p className="text-gray-400">Mechanical and aerospace Engineering background</p>
       </div>
 
       <div className="education-item">
-        <p className="text-gray-600 text-4xl">Diploma in Frontend Development</p>
-        <h2 className="text-gray-600 text-2xl">2021 | HIIT Plc</h2>
-        <p className="text-gray-600">HTML. CSS. BOOTSTRAP. Tailwind. React. ReactNative. Kotlin. CSS Frameworks. Javascript. Next. Typescript</p>
+        <p className="text-gray-400 text-4xl">Diploma in Frontend Development</p>
+        <h2 className="text-gray-400 text-2xl">2021 | HIIT Plc</h2>
+        <p className="text-gray-400">HTML. CSS. BOOTSTRAP. Tailwind. React. ReactNative. Kotlin. CSS Frameworks. Javascript. Next. Typescript</p>
       </div>
 
       <div className="education-item">
-        <p className="text-gray-600 text-4xl">AWS Cloud Practitioner</p>
-        <h2 className="text-gray-600 text-2xl">2022 | ALX</h2>
-        <p className="text-gray-600">Introduction to Cloud Computing:AWS cloud practitioner course</p>
+        <p className="text-gray-400 text-4xl">AWS Cloud Practitioner</p>
+        <h2 className="text-gray-400 text-2xl">2022 | ALX</h2>
+        <p className="text-gray-400">Introduction to Cloud Computing:AWS cloud practitioner course</p>
       </div>
 
       <div className="education-item">
-        <p className="text-gray-600 text-4xl">Fuel/LPG station and Petroleum Depot Management </p>
-        <h2 className="text-gray-600 text-2xl">2018 | ASCON OIL</h2>
-        <p className="text-gray-600"> Safety course, gas station operation and management course, petroleum products depot management course</p>
+        <p className="text-gray-400 text-4xl">Fuel/LPG station and Petroleum Depot Management </p>
+        <h2 className="text-gray-400 text-2xl">2018 | ASCON OIL</h2>
+        <p className="text-gray-400"> Safety course, gas station operation and management course, petroleum products depot management course</p>
       </div>
 
       <style jsx>{`

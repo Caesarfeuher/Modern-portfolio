@@ -138,7 +138,7 @@ export default function Projects() {
 
         <div className="w-2/3 max-w-md">
           <p className="text-base leading-6 break-words">
-            Netflix clone cdsnbcijcnfdsjkcnfdijcnsdfcjnskcfdincdfkscnslcjkikcnsfnnhjghvygvgjhgggggggggggggggggvhcvghcvcvghjcvyfgcyuytcfrurdjtydyfrftyjcdyvgcfjycytfycfytyyvhgfcfycyvchgcyfcyt
+            Fuel pay africa is a payment processing platform that helps nigerians pay for various petroleum products at any filling station of thei choice instantly while also ensuring quantity assurance.i.e ensuring every user gets their money worth of what was paid for.
           </p>
           <br />
           <Link href="">
@@ -157,7 +157,7 @@ export default function Projects() {
 
         <div className="w-2/3 max-w-md">
           <p className="text-base leading-6 break-words">
-            A social media platform used to send and receive messages almost instantly.
+            A social media platform used to send and receive messages almost instantly.this build centers around the use of node.js, expressjs, websockets and mode of operation of backend algorithm.
           </p>
           <br />
           <Link href="https://whatsapp-mern-tau.vercel.app/">
