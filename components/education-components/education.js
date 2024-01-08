@@ -127,9 +127,11 @@ import React, { useEffect, useState } from 'react';
 const Education = () => {
   useEffect(() => {
     document.body.classList.add('scrollable');
+    document.body.style.overflowX = 'hidden';
 
     return () => {
       document.body.classList.remove('scrollable');
+      document.body.style.overflowX = 'visible';
     };
   }, []);
 
