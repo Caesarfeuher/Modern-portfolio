@@ -1,7 +1,15 @@
-import React from 'react';
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
+import React from 'react'
 
 const Education = () => {
+  useEffect(() => {
+    document.body.classList.add('scrollable');
+
+    return () => {
+      document.body.classList.remove('scrollable');
+    };
+  }, []);
   const [isCentered, setIsCentered] = React.useState(false);
 
   const toggleCenter = () => {
@@ -73,6 +81,10 @@ const Education = () => {
           /* Apply styles for screens with a maximum width of 850px */
           .education-item {
             width: 50%; /* Make the width 100% for smaller screens */
+            overflow:auto
+          }
+          .education-item p {
+            font-size: 2xl !important; /* Add !important to ensure the style is applied */
           }
         }
       `}</style>
