@@ -67,8 +67,13 @@ const Education = () => {
           border: 1px solid #ccc;
           padding: 16px;
           width: 900px; /* Adjust the width as needed */
-          text-align: center;
-          
+          text-align: center;  
+        }
+        @media screen and (max-width: 850px) {
+          /* Apply styles for screens with a maximum width of 850px */
+          .education-item {
+            width: 50%; /* Make the width 100% for smaller screens */
+          }
         }
       `}</style>
     </motion.div>
