@@ -84,8 +84,8 @@ const Education = () => {
             overflow:auto
             text-align: center;
             border: 1px solid #ccc;
-            margin-top: 32px;
-            padding: 32px;
+            margin-top: -32px;
+            padding: -32px;
           }
           .education-item p {
             // font-size: 2xl !important; /* Add !important to ensure the style is applied */
