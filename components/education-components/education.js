@@ -29,9 +29,9 @@ const Education = () => {
         animate={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: -50 }}
         transition={{ duration: 0.5 }}
-      >
-        EDUCATION
+      >  
       </motion.h1>
+      EDUCATION
 
       {/* Four divs for listing institutions */}
       <div className="education-item">
@@ -96,7 +96,8 @@ const Education = () => {
             font-size: 0.9rem;
           }
         }
-      `}</style>
+      `}
+      </style>
     </motion.div>
   );
 };
