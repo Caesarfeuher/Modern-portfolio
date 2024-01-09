@@ -1,8 +1,24 @@
 import Link from "next/link";
 import Image from "next/image";
+import React, { useEffect, useState } from 'react';
+
+
+  
 
 // components/About.js
 const About = () => {
+  useEffect(() => {
+    document.body.classList.add('scrollable');
+    document.body.style.overflowX = 'hidden';
+
+    return () => {
+      document.body.classList.remove('scrollable');
+      document.body.style.overflowX = 'visible';
+    };
+  }, []);
+
+
+
     return (
       <div className="flex justify-center items-start p-10 h-screen">
         {/* Left div with image */}
