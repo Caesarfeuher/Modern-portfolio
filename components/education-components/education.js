@@ -108,63 +108,54 @@
 
 
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
 
-export default function Skills() {
-  const [windowWidth, setWindowWidth] = useState(undefined);
-
+const Education = () => {
   useEffect(() => {
-    const updateWindowWidth = () => {
-      setWindowWidth(window.innerWidth);
-    };
+    document.body.classList.add('scrollable');
+    document.body.style.overflowX = 'hidden';
 
-    // Attach event listener to update window width on resize
-    window.addEventListener('resize', updateWindowWidth);
-
-    // Initial update
-    updateWindowWidth();
-
-    // Cleanup the event listener when component unmounts
     return () => {
-      window.removeEventListener('resize', updateWindowWidth);
+      document.body.classList.remove('scrollable');
+      document.body.style.overflowX = 'visible';
     };
   }, []);
 
-  const isMobile = windowWidth && windowWidth <= 850;
+  const [isCentered, setIsCentered] = useState(false);
+
+  const toggleCenter = () => {
+    setIsCentered(!isCentered);
+  };
 
   return (
-    <div className={`centered ${isMobile && 'mobile'}`}>
-      <div className='education-item'>
-        <Image src='/javascript.jpg' width={800} height={400} className='image' />
-        <Image src='/react.jpg' width={800} height={400} className='image' />
-        <Image src='/figma.jpg' width={800} height={400} className='image' />
-        <Image src='/git.jpg' width={800} height={400} className='image' />
-        <Image src='/firebase.jpg' width={400} height={200} className='image' />
-        <Image src='/chatgpt.jpg' width={800} height={400} className='image' />
+    <div
+      className={`flex flex-col items-center justify-center ${isCentered ? 'centered' : ''}`}
+      onClick={toggleCenter}
+    >
+      <h1 className="text-5xl">EDUCATION</h1>
+
+      {/* Four divs for listing institutions */}
+      <div className="education-item">
+        <p className="text-gray-400 text-4xl">Bachelor of Science in Mechanical Engineering</p>
+        <h2 className="text-gray-400 text-2xl">2015-2019 | Kwame Nkrumah University Of Science And Technology (KNUST) </h2>
+        <h3 className="text-gray-400">Mechanical and aerospace Engineering background</h3>
       </div>
 
-      <div className='education-item'>
-        <Image src='/vue.jpg' width={800} height={400} className='image' />
-        <Image src='/expo.jpg' width={800} height={20} className='image' />
-        <Image src='/angular.jpg' width={800} height={400} className='image' />
-        <Image src='/typescript.jpg' width={800} height={400} className='image' />
-        <Image src='/wordpress.jpg' width={800} height={400} className='image' />
-        <Image src='/nextjs.jpg' width={800} height={400} className='image' />
+      <div className="education-item">
+        <p className="text-gray-400 text-4xl">Diploma in Frontend Development</p>
+        <h2 className="text-gray-400 text-2xl">2021 | HIIT Plc</h2>
+        <h3 className="text-gray-400">HTML. CSS. BOOTSTRAP. Tailwind. React. ReactNative. Kotlin. CSS Frameworks. Javascript. Next. Typescript</h3>
       </div>
 
-      <div className='education-item'>
-        <Image src='/nodejs-logo.jpg' width={800} height={400} className='image' />
-        <Image src='/AWS-Emblem.jpg' width={800} height={400} className='image' />
-        <Image src='/express.jpg' width={800} height={400} className='image' />
-        <Image src='/postman.jpg' width={800} height={400} className='image' />
-        <Image src='/aleo.jpg' width={800} height={400} className='image' />
-        <Image src='/nodemon.jpg' width={800} height={400} className='image' />
+      <div className="education-item">
+        <p className="text-gray-400 text-4xl">AWS Cloud Practitioner</p>
+        <h2 className="text-gray-400 text-2xl">2022 | ALX</h2>
+        <h3 className="text-gray-400">Introduction to Cloud Computing:AWS cloud practitioner course</h3>
       </div>
 
-      <div className='education-item'>
-        <Image src='/reactnative.jpg' width={800} height={400} className='image' />
-        <Image src='/mongo.jpg' width={800} height={400} className='image' />
-        <Image src='/eng.jpg' width={800} height={400} className='image' />
+      <div className="education-item">
+        <p className="text-gray-400 text-4xl">Fuel/LPG station and Petroleum Depot Management </p>
+        <h2 className="text-gray-400 text-2xl">2018 | ASCON OIL</h2>
+        <h3 className="text-gray-400"> Safety course, gas station operation and management course, petroleum products depot management course</h3>
       </div>
 
       <style jsx>{`
@@ -174,24 +165,23 @@ export default function Skills() {
           align-items: center;
         }
 
+        h1 {
+          cursor: pointer;
+          user-select: none;
+        }
+
         .education-item {
           margin-top: 16px;
           border: 1px solid #ccc;
           padding: 16px;
-          width: 900px;
-          text-align: center;
-        }
-
-        .education-item img {
-          max-width: 100%;
-          max-height: 100%;
-          object-fit: cover;
-          border-radius: 100px;
+          width: 900px; /* Adjust the width as needed */
+          text-align: center;  
         }
 
         @media screen and (max-width: 850px) {
+          /* Apply styles for screens with a maximum width of 850px */
           .education-item {
-            width: 50%;
+            width: 50%; /* Make the width 50% for smaller screens */
             overflow: auto;
             text-align: center;
             border: 1px solid #ccc;
@@ -199,11 +189,31 @@ export default function Skills() {
             padding: 32px;
           }
 
-          .education-item img {
-            border-radius: 50px; /* Adjust border-radius for smaller screens */
+          .education-item p {
+            font-size: 1.5rem;
+          }
+
+          .education-item h2 {
+            font-size: 0.9rem;
           }
         }
-      `}</style>
+      `}
+      </style>
     </div>
   );
-}
+};
+
+export default Education;
+
+
+
+
+
+
+
+
+
+
+
+
+
