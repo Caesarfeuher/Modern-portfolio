@@ -6,7 +6,7 @@ export default function AboutPage() {
    
 
     return (
-        <div className="mr-[-150px]">
+        <div className="md:mr-[-150px]">
            <NavBar/>
             <About />
         </div>
