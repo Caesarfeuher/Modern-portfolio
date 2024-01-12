@@ -20,7 +20,7 @@ const About = () => {
     return (
       <div className="flex justify-center items-start p-5 h-screen md:flex-col md:ml-[170px] sm:m-[30px] ">
         {/* Left div with image */}
-        <div className="pl-[90px] md:w-[50%] md:h-[50%] md:pl[60px] sm:w-full sm:h-auto">
+        <div className="mb-10 pl-[90px] md:w-[100%] md:h-[100%] md:pl[60px] sm:w-full sm:h-auto">
         <Image src={'/self.JPG'} width={250} height={250} className="md:h-[200px] md:w-[200px]" />
         </div>
   
