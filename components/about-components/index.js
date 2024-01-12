@@ -6,7 +6,7 @@ export default function AboutPage() {
    
 
     return (
-        <div className="faqs-wrapper">
+        <div className="mr-[-190px]">
            <NavBar/>
             <About />
         </div>
