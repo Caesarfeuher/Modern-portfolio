@@ -13,10 +13,10 @@ export default function Home() {
       </div>
 
       {/* Typewriter div beneath the fixed image */}
-      <div className="text-gray-500 text-6xl mt-4">
+      <div className="text-gray-500 text-6xl mt-4 md:text-3xl">
         <Typewriter
           options={{
-            strings: ['Hi, My name is Daniel ', 'Web Developer ', 'Software Engineer ', 'A-code-a-day.tsx ', ' <>KeepsTheBugsAway</>', 'AWS Cloud Practitioner '],
+            strings: ['Hi, My name is Daniel', 'Mechanical Engineer','Web Developer', 'Software Engineer', 'A-code-a-day.tsx', ' <>KeepsTheBugsAway</>', 'AWS Cloud Practitioner'],
             autoStart: true,
             loop: true,
           }}

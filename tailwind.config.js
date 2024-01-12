@@ -40,7 +40,7 @@ module.exports = {
       'sm': {'max': '639px'},
       // => @media (max-width: 639px) { ... }
 
-      'smm':{'max':'639px', 'min':"350px"}
+      
     }
   },
   plugins: [],
