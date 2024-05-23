@@ -27,7 +27,7 @@ const About = () => {
         {/* Center div with text */}
         <div className="max-w-md self-start md:w-[100vh] md:h-[50vh] p-5">
           <p className="leading-6 md:text-overflow sm:text-overflow">
-          Greetings! I'm Akrasi Daniel, a versatile professional adept in Frontend Development, Software Engineering, and Mechanical Engineering. With a blend of design flair and technical precision, I create visually captivating user interfaces and navigate complex code proficiently. My background in Mechanical Engineering adds a meticulous and detail-oriented approach, complemented by AWS Cloud expertise.
+            Greetings! I'm Akrasi Daniel, a versatile professional adept in Frontend Development, Software Engineering, and Mechanical Engineering. With a blend of design flair and technical precision, I create visually captivating user interfaces and navigate complex code proficiently. My background in Mechanical Engineering adds a meticulous and detail-oriented approach, complemented by AWS Cloud expertise.
 
             Armed with a degree in Mechanical Engineering, my diverse journey includes notable projects that showcase my ability to bridge technology and engineering. What sets me apart is my full-stack proficiency, offering a complete skill set across the project lifecycle. Collaborative and adaptable, I bring a global perspective to projects.
 
