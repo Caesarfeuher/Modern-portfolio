@@ -7,11 +7,8 @@ export default function Document() {
       <Head>
       <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        
-         {/* <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"/> */}
-         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
-
-        {/* <!-- Primary Meta Tags --> */}
+      
+       {/* <!-- Primary Meta Tags --> */}
          <title>Akrasi Daniel Portfolio</title>
         <meta name="Akrasi Daniel Portfolio" content="drasdev at work" />
         <meta name="drasdev at work" content="drasdev at work" />
