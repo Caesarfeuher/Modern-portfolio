@@ -149,7 +149,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="flex justify-evenly p-10">
+      {/* <div className="flex justify-evenly p-10">
       <h2>WHATSAPP CLONE</h2>
         <div className="w-1/3 pr-4">
         <Image src={'/whatsapp.jpg'} width={400} height={250} />
@@ -166,7 +166,7 @@ export default function Projects() {
             </Button>
           </Link>
         </div>
-      </div>
+      </div> */}
 
       <div className="flex justify-evenly p-10">
       <h2>BETHILLSZONE</h2>
@@ -185,6 +185,45 @@ export default function Projects() {
           </Link>
         </div>
       </div>
+      <div className="flex justify-evenly p-10">
+      <h2>CHATBOT</h2>
+        <div className="w-1/3 pr-4">
+        <Image src={'/chatgptclone.jpg'} width={400} height={250} />
+        </div>
+
+        <div className="w-2/3 max-w-md">
+          <p className="text-base leading-6 break-words">
+            This a clone of chat gpt but without using the open AI api but rather the google gemini AI
+          </p>
+          <br />
+          <Link href="https://chatbot-nine-azure.vercel.app">
+            <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
+              View Chatbot
+            </Button>
+          </Link>
+        </div>
+      </div>
+
+      <div className="flex justify-evenly p-10">
+      <h2>E-commerce</h2>
+        <div className="w-1/3 pr-4">
+        <Image src={'/Nextcommerce.jpg'} width={400} height={250} />
+        </div>
+
+        <div className="w-2/3 max-w-md">
+          <p className="text-base leading-6 break-words">
+            This is an e-commerce site that makes use of sanity for storage of data and categories while utilizing stripe Api for payment processing.
+          </p>
+          <br />
+          <Link href="https://whatsapp-mern-tau.vercel.app/">
+            <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
+              View E-commerce
+            </Button>
+          </Link>
+        </div>
+      </div>
+
+
     </>
   );
 }
