@@ -210,7 +210,17 @@ export default function Projects() {
         <Image src={'/Nextcommerce.jpg'} width={400} height={250} />
         </div>
 
-        
+        <div className="w-2/3 max-w-md">
+          <p className="text-base leading-6 break-words">
+            This is an e-commerce site that makes use of sanity for storage of data and categories while utilizing stripe Api for payment processing.
+          </p>
+          <br />
+          <Link href="https://e-commerce-stripe-u12x-41ykx8khg-caesarfeuhers-projects.vercel.app">
+            <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
+              View E-commerce
+            </Button>
+          </Link>
+        </div>
       </div>
 
 
