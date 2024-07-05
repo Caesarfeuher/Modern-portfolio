@@ -215,7 +215,7 @@ export default function Projects() {
             This is an e-commerce site that makes use of sanity for storage of data and categories while utilizing stripe Api for payment processing.
           </p>
           <br />
-          <Link href="https://e-commerce-stripe-u12x-41ykx8khg-caesarfeuhers-projects.vercel.app">
+          <Link href="https://e-commerce-stripe-u12x-36d3kv3hr-caesarfeuhers-projects.vercel.app">
             <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
               View E-commerce
             </Button>
@@ -223,7 +223,7 @@ export default function Projects() {
         </div>
       </div>
 
-
+    
     </>
   );
 }
