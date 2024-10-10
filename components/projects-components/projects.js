@@ -130,63 +130,6 @@ export default function Projects() {
         </div>
       </div>
 
-      // <div className="flex justify-evenly p-10">
-      // <h2>SPOTIFY CLONE</h2>
-      //   <div className="w-1/3 pr-4">
-      //   <Image src={'/spotify.jpg'} width={400} height={250} />
-      //   </div>
-
-      //   <div className="w-2/3 max-w-md">
-      //     <p className="text-base leading-6 break-words">
-      //     Spotify is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world. This was a fine build while learning to implement authentication in app.
-      //     </p>
-      //     <br />
-      //     <Link href="https://spotify-clone-eeb6f.web.app">
-      //       <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
-      //         View Spotify
-      //       </Button>
-      //     </Link>
-      //   </div>
-      // </div>
-
-      // <div className="flex justify-evenly p-10">
-      //   <h2>SLACK CLONE</h2>
-      //   <div className="w-1/3 pr-4">
-      //   <Image src={'/slack.jpg'} width={400} height={250} />
-      //   </div>
-
-      //   <div className="w-2/3 max-w-md">
-      //     <p className="text-base leading-6 break-words">
-      //     Slack is a messaging app for business that connects people to the information they need. By bringing people together to work as one unified team, Slack transforms the way organizations communicate.
-      //     </p>
-      //     <br />
-      //     <Link href="https://slack-clone-b7088.web.app">
-      //       <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
-      //         View Slack
-      //       </Button>
-      //     </Link>
-      //   </div>
-      // </div>
-
-      // <div className="flex justify-evenly p-10">
-      // <h2>TIKTOK CLONE</h2>
-      //   <div className="w-1/3 pr-4">
-      //   <Image src={'/tiktok.jpg'} width={400} height={250} />
-      //   </div>
-
-      //   <div className="w-2/3 max-w-md">
-      //     <p className="text-base leading-6 break-words">
-      //       Netflix clone TikTok, known in China as Douyin, is a short-form video hosting service owned by the Chinese company ByteDance. It hosts a variety of user-submitted videos, from content such as pranks, stunts, tricks, jokes and dance, with durations from 15 seconds to ten minutes.
-      //     </p>
-      //     <br />
-      //     <Link href="https://tiktok-clone-402eb.web.app">
-      //       <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
-      //         View Tiktok
-      //       </Button>
-      //     </Link>
-      //   </div>
-      // </div>
-
       <div className="flex justify-evenly p-10">
       <h2>WEATHER FORECAST</h2>
         <div className="w-1/3 pr-4">
@@ -242,10 +185,7 @@ export default function Projects() {
             </Button>
           </Link>
         </div>
-      </div>
-
-      
-    
+      </div>  
     </>
   );
 }
