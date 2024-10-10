@@ -55,9 +55,9 @@ export default function Projects() {
   
 
   <div className="flex justify-evenly p-10">
-      <h2>Landmark ohms/orderly</h2>
+      <h2>Landmark ohms</h2>
         <div className="w-1/3 pr-4">
-        <Image src={'/spotify.jpg'} width={400} height={250} />
+        <Image src={'/landmark.jpg'} width={400} height={250} />
         </div>
 
         <div className="w-2/3 max-w-md">
@@ -73,8 +73,8 @@ export default function Projects() {
         </div>
       </div>
 
-            <div className="flex justify-evenly p-10">
-      <h2>CHATBOT</h2>
+        <div className="flex justify-evenly p-10">
+          <h2>CHATBOT</h2>
         <div className="w-1/3 pr-4">
         <Image src={'/chatgptclone.jpg'} width={400} height={250} />
         </div>
@@ -228,7 +228,7 @@ export default function Projects() {
       <div className="flex justify-evenly p-10">
       <h2>Swift buy</h2>
         <div className="w-1/3 pr-4">
-        <Image src={'/preview.jpg'} width={400} height={250} />
+        <Image src={'/swiftbuy.jpg'} width={400} height={250} />
         </div>
 
         <div className="w-2/3 max-w-md">
