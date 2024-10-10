@@ -16,6 +16,24 @@ export default function Projects() {
 
   return (
     <>
+       <div className="flex justify-evenly p-10">
+      <h2>BETHILLSZONE</h2>
+        <div className="w-1/3 pr-4">
+        <Image src={'/bethills.jpg'} width={400} height={250} />
+        </div>
+
+        <div className="w-2/3 max-w-md">
+          <p className="text-base leading-6 break-words">
+          Bethillszone home for football predictions, stats and betting tips! Bethillszone is the best football prediction site in the world designed to help make you best bet prediction. Bethillszone site is powered by an advanced football api that has the best accuracy online          </p>
+          <br />
+          <Link href="https://bethillszone.com/">
+            <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
+              View Bethillszone
+            </Button>
+          </Link>
+        </div>
+      </div>
+
       <div className="flex justify-evenly p-10">
         <h2>NETFLIX CLONE</h2>
         <div className="w-1/3 pr-4">
@@ -34,63 +52,140 @@ export default function Projects() {
           </Link>
         </div>
       </div>
+  
 
-      <div className="flex justify-evenly p-10">
-      <h2>SPOTIFY CLONE</h2>
+  <div className="flex justify-evenly p-10">
+      <h2>Landmark ohms/orderly</h2>
         <div className="w-1/3 pr-4">
         <Image src={'/spotify.jpg'} width={400} height={250} />
         </div>
 
         <div className="w-2/3 max-w-md">
           <p className="text-base leading-6 break-words">
-          Spotify is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world. This was a fine build while learning to implement authentication in app.
+          Landmark ohms is a site within a site that allows people to access information about various advertisement billboards across the country
           </p>
           <br />
-          <Link href="https://spotify-clone-eeb6f.web.app">
+          <Link href="https://landmarksohms.com">
             <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
-              View Spotify
+              View Landmark
+            </Button>
+          </Link>
+        </div>
+      </div>
+
+            <div className="flex justify-evenly p-10">
+      <h2>CHATBOT</h2>
+        <div className="w-1/3 pr-4">
+        <Image src={'/chatgptclone.jpg'} width={400} height={250} />
+        </div>
+
+        <div className="w-2/3 max-w-md">
+          <p className="text-base leading-6 break-words">
+            This a clone of chat gpt but without using the open AI api but rather the google gemini AI
+          </p>
+          <br />
+          <Link href="https://chatbot-nine-azure.vercel.app">
+            <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
+              View Chatbot
+            </Button>
+          </Link>
+        </div>
+      </div>
+
+       <div className="flex justify-evenly p-10">
+      <h2>E-commerce</h2>
+        <div className="w-1/3 pr-4">
+        <Image src={'/Nextcommerce.jpg'} width={400} height={250} />
+        </div>
+
+        <div className="w-2/3 max-w-md">
+          <p className="text-base leading-6 break-words">
+            This is an e-commerce site that makes use of sanity for storage of data and categories while utilizing stripe Api for payment processing.
+          </p>
+          <br />
+          <Link href="https://e-commerce-stripe-u12x-36d3kv3hr-caesarfeuhers-projects.vercel.app">
+            <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
+              View E-commerce
             </Button>
           </Link>
         </div>
       </div>
 
       <div className="flex justify-evenly p-10">
-        <h2>SLACK CLONE</h2>
+      <h2>FUEL PAY AFRICA WEB</h2>
         <div className="w-1/3 pr-4">
-        <Image src={'/slack.jpg'} width={400} height={250} />
+        <Image src={'/preview.jpg'} width={400} height={250} />
         </div>
 
         <div className="w-2/3 max-w-md">
           <p className="text-base leading-6 break-words">
-          Slack is a messaging app for business that connects people to the information they need. By bringing people together to work as one unified team, Slack transforms the way organizations communicate.
+            Fuel pay africa is a payment processing platform that helps nigerians pay for various petroleum products at any filling station of thei choice instantly while also ensuring quantity assurance.i.e ensuring every user gets their money worth of what was paid for.
           </p>
           <br />
-          <Link href="https://slack-clone-b7088.web.app">
+          <Link href="">
             <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
-              View Slack
+              View Fuelpay
             </Button>
           </Link>
         </div>
       </div>
 
-      <div className="flex justify-evenly p-10">
-      <h2>TIKTOK CLONE</h2>
-        <div className="w-1/3 pr-4">
-        <Image src={'/tiktok.jpg'} width={400} height={250} />
-        </div>
+      // <div className="flex justify-evenly p-10">
+      // <h2>SPOTIFY CLONE</h2>
+      //   <div className="w-1/3 pr-4">
+      //   <Image src={'/spotify.jpg'} width={400} height={250} />
+      //   </div>
 
-        <div className="w-2/3 max-w-md">
-          <p className="text-base leading-6 break-words">
-            Netflix clone TikTok, known in China as Douyin, is a short-form video hosting service owned by the Chinese company ByteDance. It hosts a variety of user-submitted videos, from content such as pranks, stunts, tricks, jokes and dance, with durations from 15 seconds to ten minutes.
-          </p>
-          <br />
-          <Link href="https://tiktok-clone-402eb.web.app">
-            <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
-              View Tiktok
-            </Button>
-          </Link>
-        </div>
-      </div>
+      //   <div className="w-2/3 max-w-md">
+      //     <p className="text-base leading-6 break-words">
+      //     Spotify is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world. This was a fine build while learning to implement authentication in app.
+      //     </p>
+      //     <br />
+      //     <Link href="https://spotify-clone-eeb6f.web.app">
+      //       <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
+      //         View Spotify
+      //       </Button>
+      //     </Link>
+      //   </div>
+      // </div>
+
+      // <div className="flex justify-evenly p-10">
+      //   <h2>SLACK CLONE</h2>
+      //   <div className="w-1/3 pr-4">
+      //   <Image src={'/slack.jpg'} width={400} height={250} />
+      //   </div>
+
+      //   <div className="w-2/3 max-w-md">
+      //     <p className="text-base leading-6 break-words">
+      //     Slack is a messaging app for business that connects people to the information they need. By bringing people together to work as one unified team, Slack transforms the way organizations communicate.
+      //     </p>
+      //     <br />
+      //     <Link href="https://slack-clone-b7088.web.app">
+      //       <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
+      //         View Slack
+      //       </Button>
+      //     </Link>
+      //   </div>
+      // </div>
+
+      // <div className="flex justify-evenly p-10">
+      // <h2>TIKTOK CLONE</h2>
+      //   <div className="w-1/3 pr-4">
+      //   <Image src={'/tiktok.jpg'} width={400} height={250} />
+      //   </div>
+
+      //   <div className="w-2/3 max-w-md">
+      //     <p className="text-base leading-6 break-words">
+      //       Netflix clone TikTok, known in China as Douyin, is a short-form video hosting service owned by the Chinese company ByteDance. It hosts a variety of user-submitted videos, from content such as pranks, stunts, tricks, jokes and dance, with durations from 15 seconds to ten minutes.
+      //     </p>
+      //     <br />
+      //     <Link href="https://tiktok-clone-402eb.web.app">
+      //       <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
+      //         View Tiktok
+      //       </Button>
+      //     </Link>
+      //   </div>
+      // </div>
 
       <div className="flex justify-evenly p-10">
       <h2>WEATHER FORECAST</h2>
@@ -131,98 +226,25 @@ export default function Projects() {
       </div>
 
       <div className="flex justify-evenly p-10">
-      <h2>FUEL PAY AFRICA WEB</h2>
+      <h2>Swift buy</h2>
         <div className="w-1/3 pr-4">
         <Image src={'/preview.jpg'} width={400} height={250} />
         </div>
 
         <div className="w-2/3 max-w-md">
           <p className="text-base leading-6 break-words">
-            Fuel pay africa is a payment processing platform that helps nigerians pay for various petroleum products at any filling station of thei choice instantly while also ensuring quantity assurance.i.e ensuring every user gets their money worth of what was paid for.
+            swift buy is an online marketplace for buying and selling of items work is still ongoing stay tuned...
           </p>
           <br />
           <Link href="">
             <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
-              View Fuelpay
+              View Swift Buy
             </Button>
           </Link>
         </div>
       </div>
 
-      {/* <div className="flex justify-evenly p-10">
-      <h2>WHATSAPP CLONE</h2>
-        <div className="w-1/3 pr-4">
-        <Image src={'/whatsapp.jpg'} width={400} height={250} />
-        </div>
-
-        <div className="w-2/3 max-w-md">
-          <p className="text-base leading-6 break-words">
-            A social media platform used to send and receive messages almost instantly.this build centers around the use of node.js, expressjs, websockets and mode of operation of backend algorithm.
-          </p>
-          <br />
-          <Link href="https://whatsapp-mern-tau.vercel.app/">
-            <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
-              View Whatsapp
-            </Button>
-          </Link>
-        </div>
-      </div> */}
-
-      <div className="flex justify-evenly p-10">
-      <h2>BETHILLSZONE</h2>
-        <div className="w-1/3 pr-4">
-        <Image src={'/bethills.jpg'} width={400} height={250} />
-        </div>
-
-        <div className="w-2/3 max-w-md">
-          <p className="text-base leading-6 break-words">
-          Bethillszone home for football predictions, stats and betting tips! Bethillszone is the best football prediction site in the world designed to help make you best bet prediction. Bethillszone site is powered by an advanced football api that has the best accuracy online          </p>
-          <br />
-          <Link href="https://bethillszone.com/">
-            <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
-              View Bethillszone
-            </Button>
-          </Link>
-        </div>
-      </div>
-      <div className="flex justify-evenly p-10">
-      <h2>CHATBOT</h2>
-        <div className="w-1/3 pr-4">
-        <Image src={'/chatgptclone.jpg'} width={400} height={250} />
-        </div>
-
-        <div className="w-2/3 max-w-md">
-          <p className="text-base leading-6 break-words">
-            This a clone of chat gpt but without using the open AI api but rather the google gemini AI
-          </p>
-          <br />
-          <Link href="https://chatbot-nine-azure.vercel.app">
-            <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
-              View Chatbot
-            </Button>
-          </Link>
-        </div>
-      </div>
-
-      <div className="flex justify-evenly p-10">
-      <h2>E-commerce</h2>
-        <div className="w-1/3 pr-4">
-        <Image src={'/Nextcommerce.jpg'} width={400} height={250} />
-        </div>
-
-        <div className="w-2/3 max-w-md">
-          <p className="text-base leading-6 break-words">
-            This is an e-commerce site that makes use of sanity for storage of data and categories while utilizing stripe Api for payment processing.
-          </p>
-          <br />
-          <Link href="https://e-commerce-stripe-u12x-36d3kv3hr-caesarfeuhers-projects.vercel.app">
-            <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
-              View E-commerce
-            </Button>
-          </Link>
-        </div>
-      </div>
-
+      
     
     </>
   );
