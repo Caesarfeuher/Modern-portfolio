@@ -82,6 +82,7 @@ export default function Projects() {
         <div className="w-2/3 max-w-md">
           <p className="text-base leading-6 break-words">
             This a clone of chat gpt but without using the open AI api but rather the google gemini AI
+            NOTE:This should only beviewed on a desktop as its being debugged
           </p>
           <br />
           <Link href="https://chatbot-nine-azure.vercel.app">
@@ -150,25 +151,6 @@ export default function Projects() {
       </div>
 
       <div className="flex justify-evenly p-10">
-      <h2>TINDER CLONE</h2>
-        <div className="w-1/3 pr-4">
-        <Image src={'/tinder.jpg'} width={400} height={250} />
-        </div>
-
-        <div className="w-2/3 max-w-md">
-          <p className="text-base leading-6 break-words">
-            Tinder is an online dating platform that connects people based on the location specifications set.
-          </p>
-          <br />
-          <Link href="https://tinders-clones.vercel.app/">
-            <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
-            View Tinder
-            </Button>
-          </Link>
-        </div>
-      </div>
-
-      <div className="flex justify-evenly p-10">
       <h2>Swift buy</h2>
         <div className="w-1/3 pr-4">
         <Image src={'/swiftbuy.jpg'} width={400} height={250} />
@@ -179,7 +161,7 @@ export default function Projects() {
             swift buy is an online marketplace for buying and selling of items work is still ongoing stay tuned...
           </p>
           <br />
-          <Link href="">
+          <Link href="https:swift-buy-o35p.onrender.com">
             <Button fontSize="large" style={{ color: "aqua" }} variant="contained" color="primary">
               View Swift Buy
             </Button>
